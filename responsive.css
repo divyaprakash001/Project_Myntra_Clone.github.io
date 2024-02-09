@@ -1,0 +1,13 @@
+
+/* responsive */
+
+@media screen and (max-width:1025px) {
+    .nav_bar {
+        display: flex;
+        min-width: 500px;
+        justify-content: space-around;
+    }
+    .nav_bar a{
+        font-size: 12px;
+    }
+}
