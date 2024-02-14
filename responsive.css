@@ -11,3 +11,25 @@
         font-size: 12px;
     }
 }
+
+@media screen and (max-width:940px) {
+    .footer_column h3{
+        font-size: 0.70em;
+    }
+    .footer_column a{
+        font-size: 0.80rem;
+    }
+}
+
+@media screen and (max-width:794px) {
+    .category_items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+    }
+    
+    .sale_item{
+        width: 100%;
+    }
+}
